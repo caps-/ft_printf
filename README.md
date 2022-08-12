@@ -1,3 +1,2 @@
-# ft_printf
+# ft_printf 🇫🇷🇦🇺 (passed 120/100)
 
-- https://git.chevro.fr/42-cestoliv/ft_printf
