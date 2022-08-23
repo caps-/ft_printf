@@ -6,7 +6,7 @@
 /*   By: pwhittin <pwhittin@student.42adel.org.au>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 13:22:46 by pwhittin          #+#    #+#             */
-/*   Updated: 2022/06/06 16:26:05 by pwhittin         ###   ########.fr       */
+/*   Updated: 2022/08/23 15:36:29 by pwhittin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,8 @@ static int	vals(char *prefix, int *prec, t_spec *spec, int n)
 	return (len);
 }
 
-/* */
+/* This guy just does the ol' divide/modulo trick to convert a number to a
+ * string so we can print it using characters including a-f.  */
 
 static int	print_base(int n, char *base)
 {
